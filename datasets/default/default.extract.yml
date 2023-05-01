@@ -1,0 +1,102 @@
+extract:
+  vlocity_cmt__OrchestrationItemDefinition__c:
+    fields:
+    - vlocity_cmt__AmendPlanDefinitionId__c
+    - vlocity_cmt__AsyncResponseOmniDataTransformName__c
+    - vlocity_cmt__AsyncResponseVlocityDataRaptorBundleId__c
+    - vlocity_cmt__AttributesEncodingStyle__c
+    - vlocity_cmt__AutoTaskParameters__c
+    - vlocity_cmt__CalloutParameters__c
+    - vlocity_cmt__CancelAmendBehaviour__c
+    - vlocity_cmt__ConditionData__c
+    - vlocity_cmt__Condition__c
+    - CreatedById
+    - CreatedDate
+    - vlocity_cmt__CustomTaskExecutionURL__c
+    - vlocity_cmt__ErrorQueueId__c
+    - vlocity_cmt__EventConditionData__c
+    - vlocity_cmt__GlobalKey__c
+    - vlocity_cmt__itemImplementationId__c
+    - vlocity_cmt__ItemLength__c
+    - vlocity_cmt__JeopardySafetyInterval__c
+    - vlocity_cmt__JeopardySafetyIntervalUnit__c
+    - LastModifiedById
+    - LastModifiedDate
+    - vlocity_cmt__LengthUnit__c
+    - vlocity_cmt__manualQueueId__c
+    - vlocity_cmt__ManualTaskExecutionMode__c
+    - vlocity_cmt__NumberOfRetries__c
+    - Name
+    - vlocity_cmt__OrchestrationPlanDefinitionId__c
+    - vlocity_cmt__OrderItemsNodeName__c
+    - vlocity_cmt__IsPointOfNoReturn__c
+    - vlocity_cmt__ProcessAfter__c
+    - vlocity_cmt__QueueType__c
+    - RecordTypeId
+    - vlocity_cmt__RequestItemsEncodingStyle__c
+    - vlocity_cmt__RequestItemsOmniDataTransformName__c
+    - vlocity_cmt__RequestItemsVlocityDataRaptorBundleId__c
+    - vlocity_cmt__RequestOmniDataTransformName__c
+    - vlocity_cmt__ResponseAttrsOmniDataTransformName__c
+    - vlocity_cmt__ResponseAttrsVlocityDataRaptorBundleId__c
+    - vlocity_cmt__ResponseItemsOmniDataTransformName__c
+    - vlocity_cmt__ResponseItemsVlocityDataRaptorBundleId__c
+    - vlocity_cmt__ResponseOmniDataTransformName__c
+    - vlocity_cmt__ResponseVlocityDataRaptorBundleId__c
+    - vlocity_cmt__RetryPolicy__c
+    - vlocity_cmt__RollbackGroup__c
+    - vlocity_cmt__RollBackPlanDefinitionId__c
+    - vlocity_cmt__GroupDeveloperName__c
+    - vlocity_cmt__Scope__c
+    - vlocity_cmt__IsSkipBranch__c
+    - vlocity_cmt__SubPlanDefinitionId__c
+    - vlocity_cmt__SubPlanDefinition__c
+    - vlocity_cmt__SystemInterfaceId__c
+    - vlocity_cmt__TimeoutMs__c
+    - vlocity_cmt__IsUseCustomCallbackURI__c
+    - vlocity_cmt__VlocityDataRaptorBundleId__c
+  vlocity_cmt__OrchestrationPlanDefinition__c:
+    fields:
+    - CreatedDate
+    - LastModifiedDate
+    - Name
+    - vlocity_cmt__GlobalKey__c
+    - vlocity_cmt__IsSchedulingEnabled__c
+    - vlocity_cmt__SchedulingExpirationIntervalSeconds__c
+    - vlocity_cmt__Scope__c
+    - vlocity_cmt__ShowOrder__c
+    - CreatedById
+    - LastModifiedById
+  vlocity_cmt__SystemInterface__c:
+    fields:
+    - CreatedDate
+    - LastModifiedDate
+    - Name
+    - vlocity_cmt__GlobalKey__c
+    - vlocity_cmt__Implementation__c
+    - vlocity_cmt__Path__c
+    - vlocity_cmt__Status__c
+    - CreatedById
+    - LastModifiedById
+    - vlocity_cmt__SystemId__c
+  vlocity_cmt__OrchestrationDependencyDefinition__c:
+    fields:
+    - CreatedById
+    - CreatedDate
+    - Name
+    - vlocity_cmt__DependencyItemDefinitionId__c
+    - vlocity_cmt__DependencyType__c
+    - vlocity_cmt__GlobalKey__c
+    - LastModifiedById
+    - LastModifiedDate
+    - vlocity_cmt__OrchestrationItemDefinitionId__c
+    - vlocity_cmt__Scope__c
+  vlocity_cmt__System__c:
+    fields:
+    - CreatedById
+    - CreatedDate
+    - vlocity_cmt__GlobalKey__c
+    - LastModifiedById
+    - LastModifiedDate
+    - Name
+    - vlocity_cmt__URL__c
